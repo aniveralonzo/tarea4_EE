@@ -1,9 +1,4 @@
-<%-- 
-    Document   : hello
-    Created on : 19/08/2020, 19:07:24
-    Author     : 50232
---%>
-
+ 
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
 
 <% String  titulo="Listado de clientes";
@@ -15,18 +10,19 @@
         <title><%=titulo%></title>
     </head>
     <body>
+        <h1><%=titulo%></h1>
+    <table>
         <thead>
             <tr>
                 <th>ID</th>
-                <th>Nombre</th>                
-                <th>Apellido</th>
-            </tr>
+                <th>Nombre</th>
+                <th>Apellidos</th>
 
+            </tr>
         </thead>
-        <tbody>
-            <tr>
-
-            </tr>
-        <tbody/>
+        
+    </table>
+     
+    <tbody/>
     </body>
 </html>
