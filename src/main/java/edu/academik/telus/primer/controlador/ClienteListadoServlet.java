@@ -1,8 +1,4 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
+
 package edu.academik.telus.primer.controlador;
 
 import edu.academik.telus.primer.modelo.Cliente;
@@ -16,10 +12,6 @@ import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
-/**
- *
- * @author 50232
- */
 @WebServlet(name = "ClienteListadoServlet", urlPatterns = {"/cliente-listado.do"})
 public class ClienteListadoServlet extends HttpServlet {
     private ClienteServicio clienteServicio =new ClienteServicio();
